@@ -1,0 +1,20 @@
+{
+  "name": "eventinc",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "dependencies": {
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.4",
+    "nodemailer": "^6.9.16",
+    "nuxt": "^3.15.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  }
+}
