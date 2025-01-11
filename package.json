@@ -10,11 +10,25 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@headlessui/vue": "^1.7.23",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@tiptap/pm": "^2.11.2",
+    "@tiptap/starter-kit": "^2.11.2",
+    "@tiptap/vue-3": "^2.11.2",
+    "@vueuse/core": "^12.4.0",
+    "bcryptjs": "^2.4.3",
+    "date-fns": "^4.1.0",
+    "jsonwebtoken": "^9.0.2",
     "mongodb": "^6.12.0",
     "mongoose": "^8.9.4",
     "nodemailer": "^6.9.16",
     "nuxt": "^3.15.1",
     "vue": "latest",
     "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@tailwindcss/forms": "^0.5.10",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49"
   }
 }
