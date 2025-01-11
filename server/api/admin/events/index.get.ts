@@ -1,5 +1,3 @@
-// server/api/admin/events/index.get.ts
-
 import { Event } from '~/server/models/event.model'
 import { useLogger } from '~/composables/useLogger'
 

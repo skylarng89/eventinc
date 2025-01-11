@@ -3,22 +3,3 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-
-/* Custom styles can go here */
-@layer base {
-  html {
-    -webkit-tap-highlight-color: transparent;
-  }
-  
-  body {
-    @apply antialiased text-gray-900;
-  }
-}
-
-@layer components {
-  /* Custom component styles can go here */
-}
-
-@layer utilities {
-  /* Custom utilities can go here */
-}

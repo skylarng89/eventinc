@@ -1,3 +1,7 @@
+// tailwind.config.js
+
+const forms = require('@tailwindcss/forms')
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
@@ -9,11 +13,7 @@ module.exports = {
     './error.vue'
   ],
   theme: {
-    extend: {
-      // Custom theme extensions can go here
-    },
+    extend: {},
   },
-  plugins: [
-    require('@tailwindcss/forms'),
-  ],
+  plugins: [forms],
 }
